@@ -1,27 +1,19 @@
-# The Hachyderm Community
+# The wptoots.social Community
 
-Welcome to the Hachyderm community.
+Welcome to the community of the [wptoots Mastodon instance](https://wptoots.social), a group of WordPress enthusiasts.
 
-Make sure to check our status page: [status.hachyderm.io](https://status.hachyderm.io)
+Make sure to check our status page: [status.wptoots.social](https://status.wptoots.social)
 
-Here you will find information and resources on how we manage things at Hachyderm.
-
-## Status: Is Hachyderm down or is it just me?
-
-During the live migration on 01-12-2022 you can find our status here: https://hackmd.io/V2Ju0o5dTN61CGLJxX7IoQ
-
-Check the status page: [status.hachyderm.io](https://status.hachyderm.io)
-
-Additionally check: [our public Grafana dashboard](https://grafana.hachyderm.io/public-dashboards/445bbb0e169f4e86b1d1eeee7e50c92a)
+Here you will find information and resources on how we manage things on wptoots.social.
 
 ## Mission
 
-> Here we are trying to build a curated network of respectful professionals in
-> the tech industry around the globe. Welcome anyone who follows the rules and
+> We are trying to build a curated network of respectful enthusiasts in
+> the WordPress Community around the globe. Welcome anyone who follows the rules and
 > needs a safe home or fresh start.
 
-> We are hackers, professionals, enthusiasts, and are passionate about life,
-> respect, and digital freedom. We believe in peace and balance.
+> We are developers, professionals, enthusiasts, and are passionate about life,
+> respect, digital freedom and WordPress in all its facets, obviously. We believe in peace and balance.
 
 > Safe space. Tech Industry. Economics. OSINT. News. Rust. Linux. Aurae.
 > Kubernetes. Go. C. Infrastructure. Security. LGTBQIA+. Pets. Hobbies.
