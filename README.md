@@ -2,9 +2,15 @@
 
 Welcome to the community of the [wptoots Mastodon instance](https://wptoots.social), a group of WordPress enthusiasts.
 
-Make sure to check our status page: [status.wptoots.social](https://status.wptoots.social)
-
 Here you will find information and resources on how we manage things on wptoots.social.
+
+# Mastodon Tools for WP-tooters
+
+Make sure to check our status page: [status.wptoots.social](https://status.wptoots.social).
+
+If you are just starting out, wondering who else is here, we curate a list of the WordPress Community (on all instances) [here](https://wp-community-on-mastodon.wptoots.social).
+
+If you want to get some WordPress into your timeline, our [@wpbot](https://wpbot.wptoots.social) might be a good place to start!
 
 ## Mission
 
@@ -15,8 +21,8 @@ Here you will find information and resources on how we manage things on wptoots.
 > We are developers, professionals, enthusiasts, and are passionate about life,
 > respect, digital freedom and WordPress in all its facets, obviously. We believe in peace and balance.
 
-> Safe space. Tech Industry. Economics. OSINT. News. Rust. Linux. Aurae.
-> Kubernetes. Go. C. Infrastructure. Security. LGTBQIA+. Pets. Hobbies.
+> Safe space. WordPress Community. News. LAMP.
+> Infrastructure. Security. Blogging. Plugins. Themes.
 
 ## Latest Communications 🗞️
 
