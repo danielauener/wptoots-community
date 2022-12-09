@@ -161,6 +161,11 @@ correctly. Likewise users on other instances will see the special emoji you use
 here on wptoots.social correctly, even if they do not have them on their own,
 separate, instance.
 
+One important note on our community-bagde emojis (everything :wp_\*:). All theses are
+official wordpress.org badges, so only use the ones you have earned on you 
+wordpress.org profile page. Everyone using bedges they are not entitled to will
+be suspended.
+
 ## Who's Who?
 
 Let's say you formerly interacted with only a few people but found yourself
