@@ -36,8 +36,6 @@ If you have recently joined wptoots.social and/or Mastodon, please see
 the following:
 
 - [Welcome Guide](/welcome/README.md) for Mastodon 101 and getting started.
-- [List of the WordPress Community on Mastodon](https://wp-community-on-mastodon.wptoots.social/) is a curated list of WordPress community members with Mastodon accounts. Every member on the list has at least one community badge on profiles.wordpress.org and actively agreed to be listed.
-- [@wpbot](https://wpbot.wptoots.social) wptoots.social own bot, posting everything WordPress from well selected sources.
 
 ## Donations
 
