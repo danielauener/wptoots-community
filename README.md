@@ -162,18 +162,18 @@ We understand there are nasty people on the internet, and we will do everything 
 
 We ask that all community members respect our mission to remain peaceful, and deescalate in times of conflict.
 
-If ever there clearly is a targeted attack, doxxing attempt, troll, or otherwise aggressive situation on '''wptoots.social''' our advice is to report it and deescalate the situation. Do not engage. Do not respond.
+If ever there clearly is a targeted attack, doxxing attempt, troll, or otherwise aggressive situation on wptoots.social our advice is to report it and deescalate the situation. Do not engage. Do not respond.
 
 Our experience dealing with bad-actors, trolls, and aggressive accounts is that engagement is what they are looking for. Our primary weapon against them is a silent block (our mods are very responsive!) and moving on as if nothing happened.
 
-In the event this is not possible, we ask that you host your own infrastructure to forge such a counter maneuver against a group. Keep it off '''wptoots.social'''. 
+In the event this is not possible, we ask that you host your own infrastructure to forge such a counter maneuver against a group. Keep it off wptoots.social. 
 
-We will remove any account who gains a reputation for "stirring the pot" or "engaging with conflict" on our site, despite how virtuous or noble the effort may be. '''wptoots.social''' is not the place for this.
+We will remove any account who gains a reputation for "stirring the pot" or "engaging with conflict" on our site, despite how virtuous or noble the effort may be. wptoots.social is not the place for this.
 
 ## Moderation 
 
 Our moderators are not the fediverse police.
-Your presence on '''wptoots.social''' should not become a burden to our moderators.
+Your presence on wptoots.social should not become a burden to our moderators.
 We expect all community members to make our moderators jobs easier.
 
 We expect everyone to understand that our moderators are volunteers who work
@@ -191,7 +191,7 @@ There is a good chance that expectations have not been set or a policy has not
 been made clear.
 
 We will work with you to find a happy path, however if it becomes a pattern we
-will ask you to leave '''wptoots.social'''.
+will ask you to leave wptoots.social.
 
 - [Moderator Documentation](/mods/README.md)
 
@@ -211,7 +211,7 @@ The best way for you to help reduce noise is to leverage our issue tracker
 instead of independent one-off requests for help. It is a full time job sifting
 through requests and making sense of them. If you want to help, leverage the
 issue tracker and [create a new issue](
-https://github.com/'''wptoots.social'''/community/issues/new) or better yet find one that
+https://github.com/wptoots.social/community/issues/new) or better yet find one that
 already exists.
 
 ### Do Not
