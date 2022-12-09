@@ -152,7 +152,7 @@ In general we try not to change our rules. If we do, we need to give the communi
 
 #### Removing a Rule.
 
- Only Kris Nóva can remove a rule at this time.
+ Only Daniel (@daniel@wptoots.social) can remove a rule at this time.
 
 ### Dealing with Trolls, being targeted, and doxxing.
 
@@ -209,7 +209,7 @@ The best way for you to help reduce noise is to leverage our issue tracker
 instead of independent one-off requests for help. It is a full time job sifting
 through requests and making sense of them. If you want to help, leverage the
 issue tracker and [create a new issue](
-https://github.com/wptoots.social/community/issues/new) or better yet find one that
+https://github.com/danielauener/wptoots-community/issues/new) or better yet find one that
 already exists.
 
 ### Do Not
