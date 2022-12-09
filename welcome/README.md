@@ -166,21 +166,6 @@ official wordpress.org badges, so only use the ones you have earned on you
 wordpress.org profile page. Everyone using bedges they are not entitled to will
 be suspended.
 
-## Who's Who?
-
-Let's say you formerly interacted with only a few people but found yourself
-recently, ah, interacting with let's say many. Sometimes people's usernames
-reflect the names you know them as and sometimes they do not. Sometimes you
-follow new colleagues or people you've meet on or off line. If you would like,
-you can add notes that only you see to a users profile. For example:
-
-<img src="../assets/wptoots.social-founder-kris-nova.png"
-     alt="nova"
-     width="400"/>
-
-Not all mobile apps support editing this field at this time, so that is
-something to check if that interests you.
-
 # What to post?
 
 So now that you've learned all of that, what _do_ you post? Well, you
