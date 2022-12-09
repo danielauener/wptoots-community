@@ -1,15 +1,15 @@
-# Welcome to Hachyderm
+# Welcome to wptoots.social
 
-Hello Hachydermians! Some of you are new to Mastodon, so here are some notes to
+Hello wp-tooters! Some of you are new to Mastodon, so here are some notes to
 help you get started. Since a fair few of you are coming from Twitter, there
 will be comparisons to the Twitter model for social media.
 
 ## How do I sign up?
 
-If you're looking to sign up with us here at Hachyderm, you can sign up on
-[hachyderm.io](https://hachyderm.io). The only criteria for signing up is
-abiding by our [Hachyderm Terms of Service](
-https://hachyderm.io/about/more). If you're looking at other Mastodon
+If you're looking to sign up with us here at wptoots.social, you can sign up on
+[wptoots.social](https://wptoots.social). The only criteria for signing up is
+abiding by our [wptoots.social Terms of Service](
+https://wptoots.social/about/more). If you're looking at other Mastodon
 instances, then the sign up process is likely similar but with their own domain
 and Terms of Service.
 
@@ -19,7 +19,7 @@ and Terms of Service.
 
 There are a few different ways:
 
-- The web browser, so in our case [hachyderm.io](https://hachyderm.io)
+- The web browser, so in our case [wptoots.social](https://wptoots.social)
 - A client app, usually for mobile devices:
   - iOS: [Toot!](https://apps.apple.com/us/app/toot/id1229021451) (cost: $4
     USD)
@@ -31,7 +31,7 @@ For a complete comparison of 8 iOS apps: Fedi, Mast, Mastodon (official),
 Mercury, Metatext, tooot, Toot!, and Tootle, please take a look at
 [Transpondering's Blog]( https://transponderings.blog/2022/05/21/eight-mastodon-apps-for-iphone/)
 on the topic. ([A Google Sheets of the same data](https://docs.google.com/spreadsheets/d/1De5KRwqMIdwEryfoeBLARgxF7QgKkeOQBCilKuIdAXE/edit#gid=0), 
-made by GameDev Mastodon user [runevision](https://hachyderm.io/web/@runevision@mastodon.gamedev.place).) The deep dive is very deep, going into various UI features, commenting about how intuitive the different apps are or aren't, which are
+made by GameDev Mastodon user [runevision](https://wptoots.social/web/@runevision@mastodon.gamedev.place).) The deep dive is very deep, going into various UI features, commenting about how intuitive the different apps are or aren't, which are
 more or less compatible with screenreaders and VoiceOver, and so on.
 
 ### Who can see my content / Whose content can I see?
@@ -72,7 +72,7 @@ easy for mods to read DMs when they receive a report of harassing behavior. On
 the other hand it might also make private conversations visible that you wished
 were kept private even in those circumstances.
 
-<u>As a transparent statement</u>: Hachyderm mods and instance operators agree
+<u>As a transparent statement</u>: wptoots.social mods and instance operators agree
 to never read direct messages under any circumstances. Ever. A violation of
 this agreement will result in a permanent ban from moderator and operator
 privileges.
@@ -94,7 +94,7 @@ depending on where you prefer to post, you'll have vastly different experiences
 
 ## Content Warnings ⛔️
 
-Hachyderm does not have a firm rule on content warnings. Use them as you
+wptoots.social does not have a firm rule on content warnings. Use them as you
 please. However we do offer some best practices for you to consider.
 
 Content Warnings are implemented differently in Mastodon than Twitter. CW'ed
@@ -153,12 +153,12 @@ see? Which can you use?
 
 The emoji that are provided via your instance of Mastodon are the emoji set you
 can use. You can use the Emojos app to see what emoji are available for you to
-use. For example, the Hachyderm set is visible via
-[emojos.in/hachyderm.io](https://emojos.in/hachyderm.io).
+use. For example, the wptoots.social set is visible via
+[emojos.in/wptoots.social](https://emojos.in/wptoots.social).
 
 Mastodon will render emojis in use on other instances in your feed
 correctly. Likewise users on other instances will see the special emoji you use
-here on Hachyderm correctly, even if they do not have them on their own,
+here on wptoots.social correctly, even if they do not have them on their own,
 separate, instance.
 
 ## Who's Who?
@@ -169,7 +169,7 @@ reflect the names you know them as and sometimes they do not. Sometimes you
 follow new colleagues or people you've meet on or off line. If you would like,
 you can add notes that only you see to a users profile. For example:
 
-<img src="../assets/hachyderm-founder-kris-nova.png"
+<img src="../assets/wptoots.social-founder-kris-nova.png"
      alt="nova"
      width="400"/>
 
