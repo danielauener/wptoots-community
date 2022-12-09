@@ -26,25 +26,25 @@ If you want to get some WordPress into your timeline, our [@wpbot](https://wpbot
 
 ## Latest Communications 🗞️
 
-Wednesday, November 30, 2022 
+2022-12-09:
 
-[Hachyderm Infrastructure and Availability Update](https://hackmd.io/@RpWN2RtRQBORY9LlhuVz2A/HkFSsHrPo)
+[Initial release wptoots.social community documentation](#)
 
-We are closing signups and plan to re-open in the new year.
+## New to wptoots.social and Mastodon?
 
-## New to Hachyderm and Mastodon?
-
-If you have recently joined Hachyderm and/or Mastodon, please see
+If you have recently joined wptoots.social and/or Mastodon, please see
 the following:
 
 - [Welcome Guide](/welcome/README.md) for Mastodon 101 and getting started.
-- [Unofficial Nivenly Discord](https://discord.gg/YnWdbchSwA) is used for
-  real-time communications.
+- [List of the WordPress Community on Mastodon](https://wp-community-on-mastodon.wptoots.social/) is a curated list of WordPress community members with Mastodon accounts. Every member on the list has at least one community badge on profiles.wordpress.org and actively agreed to be listed.
+- [@wpbot](https://wpbot.wptoots.social) wptoots.social own bot, posting everything WordPress from well selected sources.
 
 ## Donations
 
-Donations can be made directly to Kris Nóva on
-[ko-fi.com/krisnovalive](https://ko-fi.com/krisnovalive).
+Your contribution to the hosting costs is much appreciated and provides economic security to the community. Feel free to contribute on a one-time basis or monthly.
+
+One-time contribution: [Buy me a coffee](https://www.buymeacoffee.com/wptoots)
+Monthly contribution: [Patreon](https://www.patreon.com//wptoots)
 
 ## Understanding Account Types
 
@@ -61,7 +61,7 @@ and open source project accounts.
 
 ### Disallowed Account Types
 
-The primary purpose of Hachyderm is to provide a place where IT
+The primary purpose of wptoots.social is to provide a place where WordPress
 (and adjacent) professionals to network. To be clear: this is not
 a "LinkedIn" type of instance. With that in mind we have a few
 account types that we explicitly do not allow:
@@ -79,13 +79,13 @@ categories.
 
 ## Rules
 
-See our [official rules](https://hachyderm.io/about/more#rules).
+See our [official rules](https://wptoots.social/about/more#rules).
 
 This is your first and final warning to take our rules seriously.
 
 ### "Don't Be A Dick" Policy
 
-Hachyderm and its surrounding community have found safety and value in a
+wptoots.social and its surrounding community have found safety and value in a
 primary guiding principle, that is often hard to interpret.
 
 > Don't be a dick.
@@ -95,7 +95,7 @@ tolerate this level of aggression towards our community.
 
 In short, we believe that you know if you are being a dick, and therefore you
 should be able to stop. If you do not stop, you will no longer be welcome on
-Hachyderm.
+wptoots.social.
 
 Being a dick is measured by "self control" and "intent". 
 
@@ -123,7 +123,7 @@ Oxford dictionary defines shitposting as:
 > social media, typically in order to upset others or distract from the main
 > conversation.
 
-In short shitposting is allowed on Hachyderm.
+In short shitposting is allowed on wptoots.social.
 
 However, shitposting can easily violate our "don't be a dick policy" if it
 turns into offensive trolling at the expense of others.
@@ -162,18 +162,18 @@ We understand there are nasty people on the internet, and we will do everything 
 
 We ask that all community members respect our mission to remain peaceful, and deescalate in times of conflict.
 
-If ever there clearly is a targeted attack, doxxing attempt, troll, or otherwise aggressive situation on Hachyderm our advice is to report it and deescalate the situation. Do not engage. Do not respond.
+If ever there clearly is a targeted attack, doxxing attempt, troll, or otherwise aggressive situation on '''wptoots.social''' our advice is to report it and deescalate the situation. Do not engage. Do not respond.
 
 Our experience dealing with bad-actors, trolls, and aggressive accounts is that engagement is what they are looking for. Our primary weapon against them is a silent block (our mods are very responsive!) and moving on as if nothing happened.
 
-In the event this is not possible, we ask that you host your own infrastructure to forge such a counter maneuver against a group. Keep it off Hachyderm. 
+In the event this is not possible, we ask that you host your own infrastructure to forge such a counter maneuver against a group. Keep it off '''wptoots.social'''. 
 
-We will remove any account who gains a reputation for "stirring the pot" or "engaging with conflict" on our site, despite how virtuous or noble the effort may be. Hachyderm is not the place for this.
+We will remove any account who gains a reputation for "stirring the pot" or "engaging with conflict" on our site, despite how virtuous or noble the effort may be. '''wptoots.social''' is not the place for this.
 
 ## Moderation 
 
 Our moderators are not the fediverse police.
-Your presence on Hachyderm should not become a burden to our moderators.
+Your presence on '''wptoots.social''' should not become a burden to our moderators.
 We expect all community members to make our moderators jobs easier.
 
 We expect everyone to understand that our moderators are volunteers who work
@@ -191,7 +191,7 @@ There is a good chance that expectations have not been set or a policy has not
 been made clear.
 
 We will work with you to find a happy path, however if it becomes a pattern we
-will ask you to leave Hachyderm.
+will ask you to leave '''wptoots.social'''.
 
 - [Moderator Documentation](/mods/README.md)
 
@@ -211,7 +211,7 @@ The best way for you to help reduce noise is to leverage our issue tracker
 instead of independent one-off requests for help. It is a full time job sifting
 through requests and making sense of them. If you want to help, leverage the
 issue tracker and [create a new issue](
-https://github.com/hachyderm/community/issues/new) or better yet find one that
+https://github.com/'''wptoots.social'''/community/issues/new) or better yet find one that
 already exists.
 
 ### Do Not
