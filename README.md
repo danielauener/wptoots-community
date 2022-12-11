@@ -1,9 +1,7 @@
-# @wpbot for Mastodon
+# Community Documentation for wptoots.social Mastodon Instance
 
-A collection of sources used by [@wpbot@wptoots.social](https://wptoots.social/@wpbot), bringing you the best WordPress content to your Mastodon timeline.
+This documentation describes how we handle things on [wptoots.social](https://wptoots.social).
 
-## Contribute a source
+## Contribute
 
-To contribute/remove a source, change `/src/assets/sources.json` and create a PR. Please add only one source per PR and explain why the source should be added.
-
-The bot will be syncing the sources file several times per day, so new sources will be fetched quite fast after the PR is merged.
+To contribute create a Pull Request or an issue.
