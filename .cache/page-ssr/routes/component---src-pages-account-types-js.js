@@ -1,11 +1,8 @@
-exports.id = "component---src-pages-account-types-js";
-exports.ids = ["component---src-pages-account-types-js"];
+exports.id = 829;
+exports.ids = [829];
 exports.modules = {
 
-/***/ "./node_modules/classnames/index.js":
-/*!******************************************!*\
-  !*** ./node_modules/classnames/index.js ***!
-  \******************************************/
+/***/ 4184:
 /***/ ((module, exports) => {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -71,40 +68,92 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 /***/ }),
 
-/***/ "./config.js":
-/*!*******************!*\
-  !*** ./config.js ***!
-  \*******************/
+/***/ 1349:
 /***/ ((module) => {
 
-module.exports = {
-  siteTitle: "@wpbot@wptoots.social",
-  // <title>
-  manifestName: "wptoots.social",
-  manifestShortName: "wptoots",
-  // max 12 characters
-  manifestStartUrl: "/",
-  manifestBackgroundColor: "#663399",
-  manifestThemeColor: "#663399",
-  manifestDisplay: "standalone",
-  manifestIcon: "src/assets/images/avatar.png",
-  //pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
-  authorName: "wptoots.social",
-  heading: "Mastodon Community Docs",
-  // social
-  socialLinks: [{
-    icon: "fa-github",
-    name: "Github",
-    url: "https://github.com/danielauener/wpbot.wptoots.social"
-  }]
-};
+module.exports={siteTitle:"Community Documentation of wptoots.social Mastodon Instance",// <title>
+manifestName:"wptoots.social",manifestShortName:"wptoots",// max 12 characters
+manifestStartUrl:"/",manifestBackgroundColor:"#663399",manifestThemeColor:"#663399",manifestDisplay:"standalone",manifestIcon:"src/assets/images/avatar.png",//pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
+authorName:"wptoots.social",heading:"Mastodon Community Docs",// social
+socialLinks:[{icon:"fa-github",name:"Github",url:"https://github.com/danielauener/wptoots-community"}]};
 
 /***/ }),
 
-/***/ "./src/components/Layout.js":
-/*!**********************************!*\
-  !*** ./src/components/Layout.js ***!
-  \**********************************/
+/***/ 2899:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4543);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5697);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5482);
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4718);
+class Layout extends react__WEBPACK_IMPORTED_MODULE_0__.Component{constructor(props){super(props);this.state={isPreloaded:true};}componentDidMount(){this.timeoutId=setTimeout(()=>{this.setState({isPreloaded:false});},100);}componentWillUnmount(){if(this.timeoutId){clearTimeout(this.timeoutId);}}render(){const{children}=this.props;const{isPreloaded}=this.state;return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__.StaticQuery,{query:"3649515864",render:data=>/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment),null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_helmet__WEBPACK_IMPORTED_MODULE_1__["default"],{title:data.site.siteMetadata.title,meta:[{name:'description',content:'Eventually'},{name:'keywords',content:'site, web'}]},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("html",{lang:"en"})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div",{className:isPreloaded?'main-body is-preload':'main-body'},children))});}}Layout.propTypes={children:(prop_types__WEBPACK_IMPORTED_MODULE_3___default().node.isRequired)};/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Layout);
+
+/***/ }),
+
+/***/ 589:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (/* binding */ PageFooter)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4543);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function PageFooter(){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div",{id:"footer"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul",{className:"copyright"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li",null,"\xA9 Untitled. All rights reserved."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li",null,"Theme:"," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a",{href:"https://github.com/anubhavsrivastava/gatsby-starter-prologue"},"Gatsby Starter Prologue"))));}
+
+/***/ }),
+
+/***/ 9495:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "Z": () => (/* binding */ SideBar)
+});
+
+// EXTERNAL MODULE: external "/home/daniel/workspace/projects/community.wptoots.social/node_modules/react/index.js"
+var index_js_ = __webpack_require__(4543);
+var index_js_default = /*#__PURE__*/__webpack_require__.n(index_js_);
+;// CONCATENATED MODULE: ./src/components/SideBar/Footer.js
+function Footer({socialLinks=[]}){return/*#__PURE__*/index_js_default().createElement("div",{className:"bottom"},/*#__PURE__*/index_js_default().createElement("ul",{className:"icons"},socialLinks.map(social=>{const{icon,name,url}=social;return/*#__PURE__*/index_js_default().createElement("li",{key:url},/*#__PURE__*/index_js_default().createElement("a",{href:url,className:`icon ${icon}`},/*#__PURE__*/index_js_default().createElement("span",{className:"label"},name)));})));}
+// EXTERNAL MODULE: ./.cache/gatsby-browser-entry.js + 6 modules
+var gatsby_browser_entry = __webpack_require__(4718);
+;// CONCATENATED MODULE: ./src/components/SideBar/Header.js
+function Header_Footer({title,heading,avatar}){return/*#__PURE__*/index_js_default().createElement("div",{id:"logo"},/*#__PURE__*/index_js_default().createElement(gatsby_browser_entry.Link,{to:"/"},/*#__PURE__*/index_js_default().createElement("span",{className:"image avatar48"},/*#__PURE__*/index_js_default().createElement("img",{height:"128px",src:avatar,alt:""})),/*#__PURE__*/index_js_default().createElement("h1",{id:"title"},title),/*#__PURE__*/index_js_default().createElement("p",null,heading)));}
+// EXTERNAL MODULE: ./node_modules/react-scrollspy/lib/scrollspy.js
+var scrollspy = __webpack_require__(9986);
+// EXTERNAL MODULE: ./node_modules/smoothscroll-polyfill/dist/smoothscroll.js
+var smoothscroll = __webpack_require__(523);
+var smoothscroll_default = /*#__PURE__*/__webpack_require__.n(smoothscroll);
+// EXTERNAL MODULE: ./node_modules/prop-types/index.js
+var prop_types = __webpack_require__(5697);
+var prop_types_default = /*#__PURE__*/__webpack_require__.n(prop_types);
+;// CONCATENATED MODULE: ./src/components/Scroll.js
+const Element=props=>{return props.children;};class Scroll extends (index_js_default()).Component{constructor(){super();this.handleClick=this.handleClick.bind(this);}componentDidMount(){smoothscroll_default().polyfill();}handleClick(e){e.preventDefault();let elem=0;let scroll=true;const{type,element,offset,timeout}=this.props;if(type&&element){switch(type){case'class':elem=document.getElementsByClassName(element)[0];scroll=elem?true:false;break;case'id':elem=document.getElementById(element);scroll=elem?true:false;break;default:}}scroll?this.scrollTo(elem,offset,timeout):console.log(`Element not found: ${element}`);// eslint-disable-line
+}scrollTo(element,offSet=0,timeout=null){const elemPos=element?element.getBoundingClientRect().top+window.pageYOffset:0;if(timeout){setTimeout(()=>{window.scroll({top:elemPos+offSet,left:0,behavior:'smooth'});},timeout);}else{window.scroll({top:elemPos+offSet,left:0,behavior:'smooth'});}}render(){return/*#__PURE__*/index_js_default().createElement(Element,null,typeof this.props.children==='object'?/*#__PURE__*/index_js_default().cloneElement(this.props.children,{onClick:this.handleClick}):/*#__PURE__*/index_js_default().createElement("span",{onClick:this.handleClick},this.props.children));}}Scroll.propTypes={type:(prop_types_default()).string,element:(prop_types_default()).string,offset:(prop_types_default()).number,timeout:(prop_types_default()).number,children:(prop_types_default()).node.isRequired};/* harmony default export */ const components_Scroll = (Scroll);
+;// CONCATENATED MODULE: ./src/components/SideBar/Nav.js
+function Nav({sections=[]}){return/*#__PURE__*/index_js_default().createElement("nav",{id:"nav"},/*#__PURE__*/index_js_default().createElement("ul",null,/*#__PURE__*/index_js_default().createElement(scrollspy/* default */.Z,{items:sections.map(s=>s.id),currentClassName:"active",offset:-300},sections.map(s=>{return s.id==="back"?/*#__PURE__*/index_js_default().createElement("li",{key:s.id},/*#__PURE__*/index_js_default().createElement("a",{href:"/",id:"top-link"},/*#__PURE__*/index_js_default().createElement("span",{className:`icon ${s.icon}`},s.name))):/*#__PURE__*/index_js_default().createElement("li",{key:s.id},/*#__PURE__*/index_js_default().createElement(components_Scroll,{type:"id",element:s.id},/*#__PURE__*/index_js_default().createElement("a",{href:`#${s.id}`,id:"top-link"},/*#__PURE__*/index_js_default().createElement("span",{className:`icon ${s.icon}`},s.name))));}))));}
+;// CONCATENATED MODULE: ./src/components/SideBar/TopNav.js
+function TopNav({title,onMenuClick=()=>{}}){return/*#__PURE__*/index_js_default().createElement("div",{id:"headerToggle"},/*#__PURE__*/index_js_default().createElement("a",{href:"/#",className:"toggle",onClick:e=>{e.preventDefault();onMenuClick();}},' '));}
+// EXTERNAL MODULE: ./config.js
+var config = __webpack_require__(1349);
+var config_default = /*#__PURE__*/__webpack_require__.n(config);
+;// CONCATENATED MODULE: ./src/assets/images/avatar.png
+/* harmony default export */ const avatar = (__webpack_require__.p + "static/avatar-9e1e14252181af2eb86e2397b8625962.png");
+;// CONCATENATED MODULE: ./src/components/SideBar/index.js
+function SideBar({sections=[]}){const{0:headerOpen,1:toggleHeader}=(0,index_js_.useState)(false);return/*#__PURE__*/index_js_default().createElement("div",{className:`${headerOpen?"header-visible":" "}`},/*#__PURE__*/index_js_default().createElement(TopNav,{title:(config_default()).authorName,onMenuClick:()=>toggleHeader(!headerOpen)}),/*#__PURE__*/index_js_default().createElement("div",{id:"header"},/*#__PURE__*/index_js_default().createElement("div",{className:"top"},/*#__PURE__*/index_js_default().createElement(Header_Footer,{avatar:avatar,title:(config_default()).authorName,heading:(config_default()).heading}),/*#__PURE__*/index_js_default().createElement(Nav,{sections:sections})),/*#__PURE__*/index_js_default().createElement(Footer,{socialLinks:(config_default()).socialLinks})));}
+
+/***/ }),
+
+/***/ 9361:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -112,607 +161,54 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _public_page_data_sq_d_3649515864_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../public/page-data/sq/d/3649515864.json */ "./public/page-data/sq/d/3649515864.json");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-helmet */ "./node_modules/react-helmet/lib/Helmet.js");
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-/* harmony import */ var _assets_sass_main_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../assets/sass/main.scss */ "./src/assets/sass/main.scss");
-/* harmony import */ var _assets_sass_main_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_sass_main_scss__WEBPACK_IMPORTED_MODULE_4__);
-
-
-
-
-
-
-class Layout extends react__WEBPACK_IMPORTED_MODULE_1__.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isPreloaded: true
-    };
-  }
-  componentDidMount() {
-    this.timeoutId = setTimeout(() => {
-      this.setState({
-        isPreloaded: false
-      });
-    }, 100);
-  }
-  componentWillUnmount() {
-    if (this.timeoutId) {
-      clearTimeout(this.timeoutId);
-    }
-  }
-  render() {
-    const {
-      children
-    } = this.props;
-    const {
-      isPreloaded
-    } = this.state;
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__.StaticQuery, {
-      query: "3649515864",
-      render: data => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement((react__WEBPACK_IMPORTED_MODULE_1___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_helmet__WEBPACK_IMPORTED_MODULE_2__["default"], {
-        title: data.site.siteMetadata.title,
-        meta: [{
-          name: 'description',
-          content: 'Eventually'
-        }, {
-          name: 'keywords',
-          content: 'site, web'
-        }]
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("html", {
-        lang: "en"
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("div", {
-        className: isPreloaded ? 'main-body is-preload' : 'main-body'
-      }, children)),
-      data: _public_page_data_sq_d_3649515864_json__WEBPACK_IMPORTED_MODULE_0__
-    });
-  }
-}
-Layout.propTypes = {
-  children: (prop_types__WEBPACK_IMPORTED_MODULE_5___default().node.isRequired)
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Layout);
-
-/***/ }),
-
-/***/ "./src/components/PageFooter.js":
-/*!**************************************!*\
-  !*** ./src/components/PageFooter.js ***!
-  \**************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ PageFooter)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4543);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-function PageFooter() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    id: "footer"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
-    className: "copyright"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "\xA9 Untitled. All rights reserved."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Theme:", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "https://github.com/anubhavsrivastava/gatsby-starter-prologue"
-  }, "Gatsby Starter Prologue"))));
-}
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2899);
+/* harmony import */ var _components_PageFooter__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(589);
+/* harmony import */ var _components_SideBar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9495);
+const sections=[{id:"back",name:"Back",icon:"fa-arrow-left"},{id:"general",name:"General Accounts",icon:"fa-user"},{id:"open-source",name:"Open Source Accounts",icon:"fa-code"},{id:"influencer",name:"Influencer Accounts",icon:"fa-star"},{id:"corporate",name:"Corporate Accounts",icon:"fa-building"},{id:"bots",name:"Bot Accounts",icon:"fa-qrcode"}];const IndexPage=()=>/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z,null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_SideBar__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z,{sections:sections}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div",{id:"main"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section",{id:"general",className:"two"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div",{className:"container"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2",null,"Account Types on wptoots.social")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p",null,"We distinguish between 4 main types of accounts that we use to measure and moderate here on wptoots.social. Based on the type of account, we have various policies and best practices."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3",null,"Accounts in General")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p",null,"If you are unsure what type of account you are, start with the general account FAQ."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4",null,"Frequently Asked Questions")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b",null,"Can I post about my company?")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br",null),"Yes. Posting about your company is different from a corporate account. Feel free to say whatever you want about your company."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b",null,"Can I post about my project?")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br",null),"Yes. Posting about your project is different from an open source account. Feel free to say whatever you want about your project."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b",null,"Can I create a bot account?")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br",null),"Not without working directly with the moderators."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b",null,"Can I create an anonymous account?")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br",null),"Yes. However, we do not want a single person to operate a high number of accounts. We understand the importance of being anonymous from a security, gender, safety, and mental health perspective."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b",null,"Can I create multiple accounts?")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br",null),"Yes. Within reason. We expect you to use your best judgement in not flooding our servers. We understand you might need more than one account. However, it is not a free for all. We understand security, gender, safety, and mental health, and safe space from work are all reasons to create multiple and anonymous accounts."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b",null,"Can I create accounts for pets, characters, or imaginary friends?")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br",null),"We prefer if you didn't. We are trying to build a curated network of professionals on wptoots.social and would encourage you to move these accounts to another instance."))))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section",{id:"open-source",className:"three"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div",{className:"container"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2",null,"Open Source Project Accounts")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p",null,"This section is for anyone who is interested in creating an account specifically for an open source project. If you are a maintainer of a project, or are representing yourself this page does not apply to you."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p",null,"For example, our @wpbot is an Open Source project and our admin is the maintainer. This documentation only applies to a maintainer if they were attempting to create a 2nd account in addition to a primary personal account that would be specifically for \"@wpbot\". This documentation does not apply to the personal account where they would be free to talk about the @wpbot as they wish."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p",null,"We welcome open source and collaborate projects to create accounts on wptoots.social. We have a few exceptions for projects that operate in a financially biased market or projects that are extensions of, or resemble corporations."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3",null,"Understanding Open Source Projects")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p",null,"The following are the types of projects that are welcome to come and go from wptoots.social as they please."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span",{class:"icon fa-check"}," ","Influencer AccountsOpen source software projects with MIT, Apache 2.0, GPL, Creative Commons or similar licenses."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br",null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span",{class:"icon fa-check"}," ","Open collaborative projects such as"," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a",{href:"https://www.gutenberg.org/",target:"_blank"},"The Gutenberg Project")," ","or collaborative wiki style projects like"," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a",{href:"https://wikipedia.org/",target:"_blank"},"Wikipedia"),"."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br",null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span",{class:"icon fa-check"}," ","Community driven events, open organizations, and volunteer driven events like"," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a",{href:"https://fosdem.org/",target:"_blank"},"FOSDEM"),"."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br",null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span",{class:"icon fa-check"}," ","Open source organizations such as"," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a",{href:"https://matrix.org",target:"_blank"},"Matrix"),".")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p",null,"Unfortunately we are unable to support projects that are active participants in financially biased markets, or products that are extension of a single corporation."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p",null,"We will treat all corporation-specific projects as the parent corporation itself which is bound to the"," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a",{href:"#corporate"},"corporate accounts")," documentation."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span",{class:"icon fa-remove"}," ","Financially biased trade organizations and governing bodies such as the"," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a",{href:"https://www.cncf.io/about/join/",target:"_blank"},"CNCF")," ","or"," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a",{href:"https://www.cloudfoundry.org/membership/",target:"_blank"},"Cloud Foundry")," ","or their subsequent projects such as"," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a",{href:"https://www.cncf.io/projects/istio/",target:"_blank"},"Istio")," ","or"," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a",{href:"https://www.cncf.io/projects/helm/",target:"_blank"},"Helm"),"."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br",null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span",{class:"icon fa-remove"}," ","Open source projects with a single corporate sponsor/owners such as Google's"," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a",{href:"https://go.dev/",target:"_blank"},"Go Programming language")," ","and HashiCorp's"," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a",{href:"https://www.terraform.io/",target:"_blank"},"Terraform"),"."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br",null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span",{class:"icon fa-remove"}," ","Open source projects with structured sponsorship models that resemble paid services. For example features that are unlocked via donation such as"," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a",{href:"https://letsencrypt.org/sponsors/",target:"_blank"},"LetsEncrypt"),"'s quota limit which can only be raised via donation."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br",null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span",{class:"icon fa-remove"}," ","\"up-sell\" or \"upgrade to pro\" or \"free trial\" model projects that resemble a paid service such as"," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a",{href:"https://www.pfsense.org/download/",target:"_blank"},"pfSense Community Edition")," ","or"," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a",{href:"https://www.wolfram.com/open-materials/",target:"_blank"},"Wolfram Alpha"),".")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3",null,"What Is Financial Bias?")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p",null,"Financial bias is defined as \"the ability for a specific vendor, project, or organization to pay for a competitive advantage\" or sometimes referred to as \"pay-to-play\" vendor spaces. Many vendor markets exist today which allow for wealthier vendors to pay for higher and more attractive sponsorship models that other vendors cannot afford."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p",null,"We believe that expensive sponsorship models that promise a higher return of investment with regard to product marketing create an unfair disadvantage for small businesses. We believe a level playing field for small businesses is critical for the sustainability of future generations in tech. We cannot condone a financially biased governance model in our community."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3",null,"Frequently Asked Questions")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b",null,"Can I create an account for my event? Like Devopsdays?")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br",null),"Yes. As long as your event is not a profit focused event you are welcome to create an account. If your event is profit seeking, you must follow our"," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a",{href:"#corporate"},"corporate account policy"),"."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b",null,"What about Devopsdays for my specific city?")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br",null),"Yes. As long as your subsidiary account isn't repeating the same content as the parent account. We expect each account to have relatively independent content."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b",null,"Can I create a support/help/fan/parody account?")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br",null),"No. Accounts like \"Linux Tips\" or \"Kubernetes Memes\" are not in alignment with our mission to create a curated group of professionals. We aim to have accounts that represent real people."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b",null,"Can I create an account if a similar one already exists?")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br",null),"No. We want to have one account for each project. We do not want to have \"Wikipedia tips\" and \"Wikipedia facts\" as separate accounts. We think that collaboration of the same account should be shared at the project level. You should join the project and ask for access to the Mastodon account."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b",null,"Can I create a bot account for our open source project?")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br",null),"No. We know its fun to automate pull requests, build status, and more. However we try to keep our content based around real words written by real people."))))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section",{id:"influencer",className:"two"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div",{className:"container"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2",null,"Influencer Accounts")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p",null,"In short, we welcome all influencers and have an open door policy to any large influencer account who would like to make wptoots.social a home."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3",null,"Large Following Accounts")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p",null,"In case accounts with a large following join our instance, that could cause an unexpected rise in traffic and slowing our service down temporarily. While we do our best not to let an abrupt traffic spike influence our site, we also want to provide a speedy and non-laggy experience for our users."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p",null,"As a rule if you have more than 25k followers on an existing platform we ask that you reach out to us"," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a",{href:"https://wptoots.social/about/more",target:"_blank"},"directly"),", shortly before announcing your transition."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3",null,"Self Promotion")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p",null,"We believe that all influencers should be free to promote their brand and their content on our site, however we have a high bar with regard to product marketing. We draw the line between \"personal brand\" and \"corporate account\". In short if you are representing yourself you should be fine to self promote on wptoots.social."))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section",{id:"corporate",className:"four"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div",{className:"container"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2",null,"Corporate Accounts")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p",null,"The simplest way to determine if an account is a corporate account or not is to ask yourself if the entity that the account represents is trying to make a profit or not. Chances are, if the entity is seeking profit, we are dealing with a corporate account. ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br",null),"In other words if you intend to create an account for a business, you should read this document because this document is exclusively for people like you."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p",null,"The WordPress Community is a diverse community and has always included individuals and corporations of all sizes, both valuably contributing. That's why we generally permit corporation accounts. However, it must be clear, that we expect you as coorporation to set the bar for what it means to be a wp-tooter, and the rules apply extra to you. By creating a corporation account, you agree to the following covenant."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3",null,"Coorporate Covenant")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i",null,"Self-identification")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br",null),"I aggree to self-identify my corporate account by placing the full legal corporation name as the display name."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i",null,"Strict following of the Rules"))," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br",null),"I agree to be a steward and role model in the wptoots.social community. I understand that my presence as a corporation implies the rules will be more strictly applied to me than normal accounts."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i",null,"Being the Corporation You Want To Work With"))," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br",null),"I agree to build a market that I would want to shop at. I agree to set the bar for having world-class corporate engagement on wptoots.social. That might include telling the community about my product, but not to use the community for structured product marketing."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i",null,"Say It Once policy"))," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br",null),"I agree to share new content and do my best to prevent repetitive content. I understand that words can be changed but messaging can remain consistent. I agree to only share my message once."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i",null,"Use your own words policy"))," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br",null),"The best practice is to research the most reliable sources on the topic and summarize what they say in your own words."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i",null,"Community first policy"))," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br",null),"I understand that policies are difficult to enforce. If it is made obvious to me that wptoots.social is no longer benefiting from my presence I will politely step down as a corporate account and move to another server."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i",null,"Mods are no Product Marketing Police"))," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br",null),"I understand that it is my job to self-moderate. If moderation from wptoots.social is involved we have failed twice. First in self-moderation, and 2nd in violating a specific policy.")))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section",{id:"bots",className:"two"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div",{className:"container"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2",null,"Bot Accounts")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p",null,"Bots come in a wide variety of frequencies and topic spaces. To limit which bot accounts are posting on our server, bot accounts must be approved to join. Although bot accounts are not necessarily corporate accounts, and those that are would fall under the rules described in the ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a",{href:"#corporate"},"corporate account policy"),", there are a few common threads between them copied in below:"),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li",null,"Bots, like corporate accounts, are held to a higher standard."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li",null,"Don't post content either by type or frequency that",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i",null,"you")," wouldn't want on your timeline if you weren't running the bot."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li",null,"We will moderate bot accounts as they are reported and apply our best judgement."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li",null,"We will be moderating the bot accounts in a way that does not create undue burnden on our volunteer mod team.")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3",null,"Bot Account Posting Rules")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li",null,"All bots must select the bot checkbox in their profile settings"),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li",null,"Bot accounts are limited to ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i",null,"5 posts per day")," if there isn't agreed something else with mods and community."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li",null,"Reactionary bots are not permitted - e.g. bots that respond to user posts based on keywords and similar."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li",null,"Bots that violate rules about spam, fundraising, 18+, corporate, etc. account types will be suspended."))))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_PageFooter__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z,null));/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IndexPage);
 
 /***/ }),
 
-/***/ "./src/components/Scroll.js":
-/*!**********************************!*\
-  !*** ./src/components/Scroll.js ***!
-  \**********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var smoothscroll_polyfill__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! smoothscroll-polyfill */ "./node_modules/smoothscroll-polyfill/dist/smoothscroll.js");
-/* harmony import */ var smoothscroll_polyfill__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(smoothscroll_polyfill__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
-
-
-
-const Element = props => {
-  return props.children;
-};
-class Scroll extends (react__WEBPACK_IMPORTED_MODULE_1___default().Component) {
-  constructor() {
-    super();
-    this.handleClick = this.handleClick.bind(this);
-  }
-  componentDidMount() {
-    smoothscroll_polyfill__WEBPACK_IMPORTED_MODULE_0___default().polyfill();
-  }
-  handleClick(e) {
-    e.preventDefault();
-    let elem = 0;
-    let scroll = true;
-    const {
-      type,
-      element,
-      offset,
-      timeout
-    } = this.props;
-    if (type && element) {
-      switch (type) {
-        case 'class':
-          elem = document.getElementsByClassName(element)[0];
-          scroll = elem ? true : false;
-          break;
-        case 'id':
-          elem = document.getElementById(element);
-          scroll = elem ? true : false;
-          break;
-        default:
-      }
-    }
-    scroll ? this.scrollTo(elem, offset, timeout) : console.log(`Element not found: ${element}`); // eslint-disable-line
-  }
-
-  scrollTo(element, offSet = 0, timeout = null) {
-    const elemPos = element ? element.getBoundingClientRect().top + window.pageYOffset : 0;
-    if (timeout) {
-      setTimeout(() => {
-        window.scroll({
-          top: elemPos + offSet,
-          left: 0,
-          behavior: 'smooth'
-        });
-      }, timeout);
-    } else {
-      window.scroll({
-        top: elemPos + offSet,
-        left: 0,
-        behavior: 'smooth'
-      });
-    }
-  }
-  render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(Element, null, typeof this.props.children === 'object' ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().cloneElement(this.props.children, {
-      onClick: this.handleClick
-    }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("span", {
-      onClick: this.handleClick
-    }, this.props.children));
-  }
-}
-Scroll.propTypes = {
-  type: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string),
-  element: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string),
-  offset: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().number),
-  timeout: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().number),
-  children: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().node.isRequired)
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Scroll);
-
-/***/ }),
-
-/***/ "./src/components/SideBar/Footer.js":
-/*!******************************************!*\
-  !*** ./src/components/SideBar/Footer.js ***!
-  \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ Footer)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-function Footer({
-  socialLinks = []
-}) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "bottom"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
-    className: "icons"
-  }, socialLinks.map(social => {
-    const {
-      icon,
-      name,
-      url
-    } = social;
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
-      key: url
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-      href: url,
-      className: `icon ${icon}`
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-      className: "label"
-    }, name)));
-  })));
-}
-
-/***/ }),
-
-/***/ "./src/components/SideBar/Header.js":
-/*!******************************************!*\
-  !*** ./src/components/SideBar/Header.js ***!
-  \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ Footer)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-
-
-function Footer({
-  title,
-  heading,
-  avatar
-}) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    id: "logo"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-    className: "image avatar48"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    height: "128px",
-    src: avatar,
-    alt: ""
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
-    id: "title"
-  }, title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, heading)));
-}
-
-/***/ }),
-
-/***/ "./src/components/SideBar/Nav.js":
-/*!***************************************!*\
-  !*** ./src/components/SideBar/Nav.js ***!
-  \***************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ Nav)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_scrollspy__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-scrollspy */ "./node_modules/react-scrollspy/lib/scrollspy.js");
-/* harmony import */ var _Scroll__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Scroll */ "./src/components/Scroll.js");
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-
-
-
-
-function Nav({
-  sections = []
-}) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", {
-    id: "nav"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_scrollspy__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    items: sections.map(s => s.id),
-    currentClassName: "active",
-    offset: -300
-  }, sections.map(s => {
-    return s.id === "back" ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
-      key: s.id
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-      href: "/",
-      id: "top-link"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-      className: `icon ${s.icon}`
-    }, s.name))) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
-      key: s.id
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Scroll__WEBPACK_IMPORTED_MODULE_2__["default"], {
-      type: "id",
-      element: s.id
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-      href: `#${s.id}`,
-      id: "top-link"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-      className: `icon ${s.icon}`
-    }, s.name))));
-  }))));
-}
-
-/***/ }),
-
-/***/ "./src/components/SideBar/TopNav.js":
-/*!******************************************!*\
-  !*** ./src/components/SideBar/TopNav.js ***!
-  \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ TopNav)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-function TopNav({
-  title,
-  onMenuClick = () => {}
-}) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    id: "headerToggle"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "/#",
-    className: "toggle",
-    onClick: e => {
-      e.preventDefault();
-      onMenuClick();
-    }
-  }, ' '));
-}
-
-/***/ }),
-
-/***/ "./src/components/SideBar/index.js":
-/*!*****************************************!*\
-  !*** ./src/components/SideBar/index.js ***!
-  \*****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ SideBar)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Footer */ "./src/components/SideBar/Footer.js");
-/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Header */ "./src/components/SideBar/Header.js");
-/* harmony import */ var _Nav__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Nav */ "./src/components/SideBar/Nav.js");
-/* harmony import */ var _TopNav__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./TopNav */ "./src/components/SideBar/TopNav.js");
-/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../config */ "./config.js");
-/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_config__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _assets_images_avatar_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../assets/images/avatar.png */ "./src/assets/images/avatar.png");
-
-
-
-
-
-
-
-function SideBar({
-  sections = []
-}) {
-  const {
-    0: headerOpen,
-    1: toggleHeader
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: `${headerOpen ? "header-visible" : " "}`
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_TopNav__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    title: (_config__WEBPACK_IMPORTED_MODULE_5___default().authorName),
-    onMenuClick: () => toggleHeader(!headerOpen)
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    id: "header"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "top"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    avatar: _assets_images_avatar_png__WEBPACK_IMPORTED_MODULE_6__["default"],
-    title: (_config__WEBPACK_IMPORTED_MODULE_5___default().authorName),
-    heading: (_config__WEBPACK_IMPORTED_MODULE_5___default().heading)
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Nav__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    sections: sections
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Footer__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    socialLinks: (_config__WEBPACK_IMPORTED_MODULE_5___default().socialLinks)
-  })));
-}
-
-/***/ }),
-
-/***/ "./src/pages/account-types.js?export=default":
-/*!***************************************************!*\
-  !*** ./src/pages/account-types.js?export=default ***!
-  \***************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout.js");
-/* harmony import */ var _components_PageFooter__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/PageFooter */ "./src/components/PageFooter.js");
-/* harmony import */ var _components_SideBar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/SideBar */ "./src/components/SideBar/index.js");
-
-
-
-
-const sections = [{
-  id: "back",
-  name: "Back",
-  icon: "fa-arrow-left"
-}, {
-  id: "general",
-  name: "General Accounts",
-  icon: "fa-user"
-}, {
-  id: "open-source",
-  name: "Open Source Accounts",
-  icon: "fa-code"
-}, {
-  id: "influencer",
-  name: "Influencer Accounts",
-  icon: "fa-star"
-}, {
-  id: "corporate",
-  name: "Corporate Accounts",
-  icon: "fa-building"
-}, {
-  id: "bots",
-  name: "Bot Accounts",
-  icon: "fa-qrcode"
-}];
-const IndexPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_SideBar__WEBPACK_IMPORTED_MODULE_3__["default"], {
-  sections: sections
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  id: "main"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-  id: "general",
-  className: "two"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "container"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Account Types on wptoots.social")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "We distinguish between 4 main types of accounts that we use to measure and moderate here on wptoots.social. Based on the type of account, we have various policies and best practices."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Accounts in General")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "If you are unsure what type of account you are, start with the general account FAQ."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "Frequently Asked Questions")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Can I post about my company?")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Yes. Posting about your company is different from a corporate account. Feel free to say whatever you want about your company."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Can I post about my project?")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Yes. Posting about your project is different from an open source account. Feel free to say whatever you want about your project."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Can I create a bot account?")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Not without working directly with the moderators."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Can I create an anonymous account?")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Yes. However, we do not want a single person to operate a high number of accounts. We understand the importance of being anonymous from a security, gender, safety, and mental health perspective."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Can I create multiple accounts?")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Yes. Within reason. We expect you to use your best judgement in not flooding our servers. We understand you might need more than one account. However, it is not a free for all. We understand security, gender, safety, and mental health, and safe space from work are all reasons to create multiple and anonymous accounts."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Can I create accounts for pets, characters, or imaginary friends?")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "We prefer if you didn't. We are trying to build a curated network of professionals on wptoots.social and would encourage you to move these accounts to another instance."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-  id: "open-source",
-  className: "three"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "container"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Open Source Project Accounts")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "This section is for anyone who is interested in creating an account specifically for an open source project. If you are a maintainer of a project, or are representing yourself this page does not apply to you."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "For example, our @wpbot is an Open Source project and our admin is the maintainer. This documentation only applies to a maintainer if they were attempting to create a 2nd account in addition to a primary personal account that would be specifically for \"@wpbot\". This documentation does not apply to the personal account where they would be free to talk about the @wpbot as they wish."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "We welcome open source and collaborate projects to create accounts on wptoots.social. We have a few exceptions for projects that operate in a financially biased market or projects that are extensions of, or resemble corporations."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Understanding Open Source Projects")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "The following are the types of projects that are welcome to come and go from wptoots.social as they please."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-  class: "icon fa-check"
-}, " ", "Influencer AccountsOpen source software projects with MIT, Apache 2.0, GPL, Creative Commons or similar licenses."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-  class: "icon fa-check"
-}, " ", "Open collaborative projects such as", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-  href: "https://www.gutenberg.org/",
-  target: "_blank"
-}, "The Gutenberg Project"), " ", "or collaborative wiki style projects like", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-  href: "https://wikipedia.org/",
-  target: "_blank"
-}, "Wikipedia"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-  class: "icon fa-check"
-}, " ", "Community driven events, open organizations, and volunteer driven events like", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-  href: "https://fosdem.org/",
-  target: "_blank"
-}, "FOSDEM"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-  class: "icon fa-check"
-}, " ", "Open source organizations such as", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-  href: "https://matrix.org",
-  target: "_blank"
-}, "Matrix"), ".")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Unfortunately we are unable to support projects that are active participants in financially biased markets, or products that are extension of a single corporation."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "We will treat all corporation-specific projects as the parent corporation itself which is bound to the", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-  href: "#corporate"
-}, "corporate accounts"), " documentation."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-  class: "icon fa-remove"
-}, " ", "Financially biased trade organizations and governing bodies such as the", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-  href: "https://www.cncf.io/about/join/",
-  target: "_blank"
-}, "CNCF"), " ", "or", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-  href: "https://www.cloudfoundry.org/membership/",
-  target: "_blank"
-}, "Cloud Foundry"), " ", "or their subsequent projects such as", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-  href: "https://www.cncf.io/projects/istio/",
-  target: "_blank"
-}, "Istio"), " ", "or", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-  href: "https://www.cncf.io/projects/helm/",
-  target: "_blank"
-}, "Helm"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-  class: "icon fa-remove"
-}, " ", "Open source projects with a single corporate sponsor/owners such as Google's", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-  href: "https://go.dev/",
-  target: "_blank"
-}, "Go Programming language"), " ", "and HashiCorp's", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-  href: "https://www.terraform.io/",
-  target: "_blank"
-}, "Terraform"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-  class: "icon fa-remove"
-}, " ", "Open source projects with structured sponsorship models that resemble paid services. For example features that are unlocked via donation such as", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-  href: "https://letsencrypt.org/sponsors/",
-  target: "_blank"
-}, "LetsEncrypt"), "'s quota limit which can only be raised via donation."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-  class: "icon fa-remove"
-}, " ", "\"up-sell\" or \"upgrade to pro\" or \"free trial\" model projects that resemble a paid service such as", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-  href: "https://www.pfsense.org/download/",
-  target: "_blank"
-}, "pfSense Community Edition"), " ", "or", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-  href: "https://www.wolfram.com/open-materials/",
-  target: "_blank"
-}, "Wolfram Alpha"), ".")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "What Is Financial Bias?")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Financial bias is defined as \"the ability for a specific vendor, project, or organization to pay for a competitive advantage\" or sometimes referred to as \"pay-to-play\" vendor spaces. Many vendor markets exist today which allow for wealthier vendors to pay for higher and more attractive sponsorship models that other vendors cannot afford."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "We believe that expensive sponsorship models that promise a higher return of investment with regard to product marketing create an unfair disadvantage for small businesses. We believe a level playing field for small businesses is critical for the sustainability of future generations in tech. We cannot condone a financially biased governance model in our community."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Frequently Asked Questions")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Can I create an account for my event? Like Devopsdays?")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Yes. As long as your event is not a profit focused event you are welcome to create an account. If your event is profit seeking, you must follow our", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-  href: "#corporate"
-}, "corporate account policy"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "What about Devopsdays for my specific city?")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Yes. As long as your subsidiary account isn't repeating the same content as the parent account. We expect each account to have relatively independent content."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Can I create a support/help/fan/parody account?")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "No. Accounts like \"Linux Tips\" or \"Kubernetes Memes\" are not in alignment with our mission to create a curated group of professionals. We aim to have accounts that represent real people."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Can I create an account if a similar one already exists?")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "No. We want to have one account for each project. We do not want to have \"Wikipedia tips\" and \"Wikipedia facts\" as separate accounts. We think that collaboration of the same account should be shared at the project level. You should join the project and ask for access to the Mastodon account."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Can I create a bot account for our open source project?")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "No. We know its fun to automate pull requests, build status, and more. However we try to keep our content based around real words written by real people."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-  id: "influencer",
-  className: "two"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "container"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Influencer Accounts")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "In short, we welcome all influencers and have an open door policy to any large influencer account who would like to make wptoots.social a home."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Large Following Accounts")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "In case accounts with a large following join our instance, that could cause an unexpected rise in traffic and slowing our service down temporarily. While we do our best not to let an abrupt traffic spike influence our site, we also want to provide a speedy and non-laggy experience for our users."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "As a rule if you have more than 25k followers on an existing platform we ask that you reach out to us", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-  href: "https://wptoots.social/about/more",
-  target: "_blank"
-}, "directly"), ", shortly before announcing your transition."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Self Promotion")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "We believe that all influencers should be free to promote their brand and their content on our site, however we have a high bar with regard to product marketing. We draw the line between \"personal brand\" and \"corporate account\". In short if you are representing yourself you should be fine to self promote on wptoots.social."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-  id: "corporate",
-  className: "four"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "container"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Corporate Accounts")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "The simplest way to determine if an account is a corporate account or not is to ask yourself if the entity that the account represents is trying to make a profit or not. Chances are, if the entity is seeking profit, we are dealing with a corporate account. ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "In other words if you intend to create an account for a business, you should read this document because this document is exclusively for people like you."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "The WordPress Community is a diverse community and has always included individuals and corporations of all sizes, both valuably contributing. That's why we generally permit corporation accounts. However, it must be clear, that we expect you as coorporation to set the bar for what it means to be a wp-tooter, and the rules apply extra to you. By creating a corporation account, you agree to the following covenant."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Coorporate Covenant")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", null, "Self-identification")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "I aggree to self-identify my corporate account by placing the full legal corporation name as the display name."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", null, "Strict following of the Rules")), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "I agree to be a steward and role model in the wptoots.social community. I understand that my presence as a corporation implies the rules will be more strictly applied to me than normal accounts."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", null, "Being the Corporation You Want To Work With")), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "I agree to build a market that I would want to shop at. I agree to set the bar for having world-class corporate engagement on wptoots.social. That might include telling the community about my product, but not to use the community for structured product marketing."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", null, "Say It Once policy")), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "I agree to share new content and do my best to prevent repetitive content. I understand that words can be changed but messaging can remain consistent. I agree to only share my message once."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", null, "Use your own words policy")), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "The best practice is to research the most reliable sources on the topic and summarize what they say in your own words."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", null, "Community first policy")), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "I understand that policies are difficult to enforce. If it is made obvious to me that wptoots.social is no longer benefiting from my presence I will politely step down as a corporate account and move to another server."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", null, "Mods are no Product Marketing Police")), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "I understand that it is my job to self-moderate. If moderation from wptoots.social is involved we have failed twice. First in self-moderation, and 2nd in violating a specific policy.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-  id: "bots",
-  className: "two"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "container"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Bot Accounts")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Bots come in a wide variety of frequencies and topic spaces. To limit which bot accounts are posting on our server, bot accounts must be approved to join. Although bot accounts are not necessarily corporate accounts, and those that are would fall under the rules described in the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-  href: "#corporate"
-}, "corporate account policy"), ", there are a few common threads between them copied in below:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Bots, like corporate accounts, are held to a higher standard."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Don't post content either by type or frequency that", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", null, "you"), " wouldn't want on your timeline if you weren't running the bot."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "We will moderate bot accounts as they are reported and apply our best judgement."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "We will be moderating the bot accounts in a way that does not create undue burnden on our volunteer mod team.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Bot Account Posting Rules")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "All bots must select the bot checkbox in their profile settings"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Bot accounts are limited to ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", null, "5 posts per day"), " if there isn't agreed something else with mods and community."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Reactionary bots are not permitted - e.g. bots that respond to user posts based on keywords and similar."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Bots that violate rules about spam, fundraising, 18+, corporate, etc. account types will be suspended."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_PageFooter__WEBPACK_IMPORTED_MODULE_2__["default"], null));
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IndexPage);
-
-/***/ }),
-
-/***/ "./src/assets/sass/main.scss":
-/*!***********************************!*\
-  !*** ./src/assets/sass/main.scss ***!
-  \***********************************/
-/***/ (() => {
-
-
-
-/***/ }),
-
-/***/ "./node_modules/react-scrollspy/lib/scrollspy.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/react-scrollspy/lib/scrollspy.js ***!
-  \*******************************************************/
+/***/ 9986:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
+var __webpack_unused_export__;
 
 
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__(4836);
 
-Object.defineProperty(exports, "__esModule", ({
+__webpack_unused_export__ = ({
   value: true
-}));
-exports["default"] = void 0;
+});
+exports.Z = void 0;
 
-var _extends2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/extends */ "./node_modules/@babel/runtime/helpers/extends.js"));
+var _extends2 = _interopRequireDefault(__webpack_require__(434));
 
-var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ "./node_modules/@babel/runtime/helpers/defineProperty.js"));
+var _defineProperty2 = _interopRequireDefault(__webpack_require__(8416));
 
-var _toConsumableArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/toConsumableArray */ "./node_modules/@babel/runtime/helpers/toConsumableArray.js"));
+var _toConsumableArray2 = _interopRequireDefault(__webpack_require__(861));
 
-var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js"));
+var _classCallCheck2 = _interopRequireDefault(__webpack_require__(6690));
 
-var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js"));
+var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__(4993));
 
-var _getPrototypeOf2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js"));
+var _getPrototypeOf2 = _interopRequireDefault(__webpack_require__(3808));
 
-var _assertThisInitialized2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js"));
+var _assertThisInitialized2 = _interopRequireDefault(__webpack_require__(6115));
 
-var _createClass2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/createClass.js"));
+var _createClass2 = _interopRequireDefault(__webpack_require__(9728));
 
-var _inherits2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/@babel/runtime/helpers/inherits.js"));
+var _inherits2 = _interopRequireDefault(__webpack_require__(1655));
 
-var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+var _propTypes = _interopRequireDefault(__webpack_require__(5697));
 
-var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
+var _react = _interopRequireDefault(__webpack_require__(4543));
 
-var _classnames = _interopRequireDefault(__webpack_require__(/*! classnames */ "./node_modules/classnames/index.js"));
+var _classnames = _interopRequireDefault(__webpack_require__(4184));
 
-var _throttle = _interopRequireDefault(__webpack_require__(/*! ./throttle */ "./node_modules/react-scrollspy/lib/throttle.js"));
+var _throttle = _interopRequireDefault(__webpack_require__(2502));
 
 function isEqualArray(a, b) {
   return a.length === b.length && a.every(function (item, index) {
@@ -1018,14 +514,11 @@ function (_React$Component) {
   return Scrollspy;
 }(_react.default.Component);
 
-exports["default"] = Scrollspy;
+exports.Z = Scrollspy;
 
 /***/ }),
 
-/***/ "./node_modules/react-scrollspy/lib/throttle.js":
-/*!******************************************************!*\
-  !*** ./node_modules/react-scrollspy/lib/throttle.js ***!
-  \******************************************************/
+/***/ 2502:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -1062,10 +555,7 @@ exports["default"] = _default;
 
 /***/ }),
 
-/***/ "./node_modules/smoothscroll-polyfill/dist/smoothscroll.js":
-/*!*****************************************************************!*\
-  !*** ./node_modules/smoothscroll-polyfill/dist/smoothscroll.js ***!
-  \*****************************************************************/
+/***/ 523:
 /***/ ((module) => {
 
 /* smoothscroll v0.4.4 - 2019 - Dustan Kasten, Jeremias Menichelli - MIT License */
@@ -1502,25 +992,7 @@ exports["default"] = _default;
 
 /***/ }),
 
-/***/ "./src/assets/images/avatar.png":
-/*!**************************************!*\
-  !*** ./src/assets/images/avatar.png ***!
-  \**************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/avatar-9e1e14252181af2eb86e2397b8625962.png");
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/arrayLikeToArray.js":
-/*!*****************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/arrayLikeToArray.js ***!
-  \*****************************************************************/
+/***/ 3897:
 /***/ ((module) => {
 
 function _arrayLikeToArray(arr, len) {
@@ -1534,13 +1006,10 @@ module.exports = _arrayLikeToArray, module.exports.__esModule = true, module.exp
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/arrayWithoutHoles.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/arrayWithoutHoles.js ***!
-  \******************************************************************/
+/***/ 3405:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-var arrayLikeToArray = __webpack_require__(/*! ./arrayLikeToArray.js */ "./node_modules/@babel/runtime/helpers/arrayLikeToArray.js");
+var arrayLikeToArray = __webpack_require__(3897);
 function _arrayWithoutHoles(arr) {
   if (Array.isArray(arr)) return arrayLikeToArray(arr);
 }
@@ -1548,10 +1017,7 @@ module.exports = _arrayWithoutHoles, module.exports.__esModule = true, module.ex
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/classCallCheck.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/classCallCheck.js ***!
-  \***************************************************************/
+/***/ 6690:
 /***/ ((module) => {
 
 function _classCallCheck(instance, Constructor) {
@@ -1563,10 +1029,7 @@ module.exports = _classCallCheck, module.exports.__esModule = true, module.expor
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/createClass.js":
-/*!************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/createClass.js ***!
-  \************************************************************/
+/***/ 9728:
 /***/ ((module) => {
 
 function _defineProperties(target, props) {
@@ -1590,10 +1053,7 @@ module.exports = _createClass, module.exports.__esModule = true, module.exports[
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/defineProperty.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/defineProperty.js ***!
-  \***************************************************************/
+/***/ 8416:
 /***/ ((module) => {
 
 function _defineProperty(obj, key, value) {
@@ -1613,10 +1073,7 @@ module.exports = _defineProperty, module.exports.__esModule = true, module.expor
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/extends.js":
-/*!********************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/extends.js ***!
-  \********************************************************/
+/***/ 434:
 /***/ ((module) => {
 
 function _extends() {
@@ -1637,10 +1094,7 @@ module.exports = _extends, module.exports.__esModule = true, module.exports["def
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/getPrototypeOf.js ***!
-  \***************************************************************/
+/***/ 3808:
 /***/ ((module) => {
 
 function _getPrototypeOf(o) {
@@ -1653,13 +1107,10 @@ module.exports = _getPrototypeOf, module.exports.__esModule = true, module.expor
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/inherits.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/inherits.js ***!
-  \*********************************************************/
+/***/ 1655:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf.js */ "./node_modules/@babel/runtime/helpers/setPrototypeOf.js");
+var setPrototypeOf = __webpack_require__(6015);
 function _inherits(subClass, superClass) {
   if (typeof superClass !== "function" && superClass !== null) {
     throw new TypeError("Super expression must either be null or a function");
@@ -1680,10 +1131,7 @@ module.exports = _inherits, module.exports.__esModule = true, module.exports["de
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/iterableToArray.js":
-/*!****************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/iterableToArray.js ***!
-  \****************************************************************/
+/***/ 9498:
 /***/ ((module) => {
 
 function _iterableToArray(iter) {
@@ -1693,10 +1141,7 @@ module.exports = _iterableToArray, module.exports.__esModule = true, module.expo
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/nonIterableSpread.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/nonIterableSpread.js ***!
-  \******************************************************************/
+/***/ 2281:
 /***/ ((module) => {
 
 function _nonIterableSpread() {
@@ -1706,14 +1151,11 @@ module.exports = _nonIterableSpread, module.exports.__esModule = true, module.ex
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js ***!
-  \**************************************************************************/
+/***/ 4993:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-var _typeof = (__webpack_require__(/*! ./typeof.js */ "./node_modules/@babel/runtime/helpers/typeof.js")["default"]);
-var assertThisInitialized = __webpack_require__(/*! ./assertThisInitialized.js */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js");
+var _typeof = (__webpack_require__(8698)["default"]);
+var assertThisInitialized = __webpack_require__(6115);
 function _possibleConstructorReturn(self, call) {
   if (call && (_typeof(call) === "object" || typeof call === "function")) {
     return call;
@@ -1726,16 +1168,13 @@ module.exports = _possibleConstructorReturn, module.exports.__esModule = true, m
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/toConsumableArray.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/toConsumableArray.js ***!
-  \******************************************************************/
+/***/ 861:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-var arrayWithoutHoles = __webpack_require__(/*! ./arrayWithoutHoles.js */ "./node_modules/@babel/runtime/helpers/arrayWithoutHoles.js");
-var iterableToArray = __webpack_require__(/*! ./iterableToArray.js */ "./node_modules/@babel/runtime/helpers/iterableToArray.js");
-var unsupportedIterableToArray = __webpack_require__(/*! ./unsupportedIterableToArray.js */ "./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js");
-var nonIterableSpread = __webpack_require__(/*! ./nonIterableSpread.js */ "./node_modules/@babel/runtime/helpers/nonIterableSpread.js");
+var arrayWithoutHoles = __webpack_require__(3405);
+var iterableToArray = __webpack_require__(9498);
+var unsupportedIterableToArray = __webpack_require__(6116);
+var nonIterableSpread = __webpack_require__(2281);
 function _toConsumableArray(arr) {
   return arrayWithoutHoles(arr) || iterableToArray(arr) || unsupportedIterableToArray(arr) || nonIterableSpread();
 }
@@ -1743,10 +1182,7 @@ module.exports = _toConsumableArray, module.exports.__esModule = true, module.ex
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/typeof.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/typeof.js ***!
-  \*******************************************************/
+/***/ 8698:
 /***/ ((module) => {
 
 function _typeof(obj) {
@@ -1762,13 +1198,10 @@ module.exports = _typeof, module.exports.__esModule = true, module.exports["defa
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js":
-/*!***************************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js ***!
-  \***************************************************************************/
+/***/ 6116:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-var arrayLikeToArray = __webpack_require__(/*! ./arrayLikeToArray.js */ "./node_modules/@babel/runtime/helpers/arrayLikeToArray.js");
+var arrayLikeToArray = __webpack_require__(3897);
 function _unsupportedIterableToArray(o, minLen) {
   if (!o) return;
   if (typeof o === "string") return arrayLikeToArray(o, minLen);
@@ -1778,17 +1211,6 @@ function _unsupportedIterableToArray(o, minLen) {
   if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return arrayLikeToArray(o, minLen);
 }
 module.exports = _unsupportedIterableToArray, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-
-/***/ "./public/page-data/sq/d/3649515864.json":
-/*!***********************************************!*\
-  !*** ./public/page-data/sq/d/3649515864.json ***!
-  \***********************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"@wpbot@wptoots.social"}}}}');
 
 /***/ })
 
