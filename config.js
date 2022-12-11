@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: "@wpbot@wptoots.social", // <title>
+  siteTitle: "Community Documentation of wptoots.social Mastodon Instance", // <title>
   manifestName: "wptoots.social",
   manifestShortName: "wptoots", // max 12 characters
   manifestStartUrl: "/",
@@ -15,7 +15,7 @@ module.exports = {
     {
       icon: "fa-github",
       name: "Github",
-      url: "https://github.com/danielauener/wpbot.wptoots.social",
+      url: "https://github.com/danielauener/wptoots-community",
     },
   ],
 };
