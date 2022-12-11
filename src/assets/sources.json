@@ -1,0 +1,95 @@
+[
+  {
+    "tag": "wpdev",
+    "sources": [
+      {
+        "url": "https://www.billerickson.net/category/wordpress-development/feed/",
+        "description": "Bill Erickson has developed an reputation in the WordPress community for the sites he’s built - WPEngine"
+      },
+      {
+        "url": "https://deliciousbrains.com/blog/feed/",
+        "description": "Delicious Brains develops some of the most used plugins in the space, like Advanced Custom Fields, WP Migrate, WP Offload Media."
+      },
+      {
+        "url": "https://feeds.feedburner.com/PerishablePressWordPress",
+        "description": "Jeff Star is one of the msot experienced developers in the community, blogging about WordPress development & security"
+      },
+      {
+        "url": "https://tommcfarlin.com/category/articles/feed/",
+        "description": "Tom Mcfarlin blogs about software development and WordPress and is known in the community for delivering high-quality, custom WordPress solutions."
+      },
+      {
+        "url": "https://www.mattcromwell.com/category/webdev/feed/",
+        "description": "Matt Cromwell is a professional web developer and has a vast experience of web development, especially in WordPress (WP)."
+      },
+      {
+        "url": "https://webdevstudios.com/category/wordpress/feed/",
+        "description": "WebDevStudios is led by renowned WordPress experts, who literally wrote the books on WordPress - wpvip.com"
+      },
+      {
+        "url": "https://wpmudev.com/blog/category/development/feed/",
+        "description": "Award-winning WordPress plugins, hosting and site management tools have helped millions of web developers."
+      },
+
+      {
+        "url": "https://wptavern.com/category/news/feed",
+        "description": "WPTavern is one of the most reliable sources on official WordPress releases, new features, issues, and fixes, WordPress people etc. - themegrill.com"
+      },
+      {
+        "url": "https://wpdeveloper.com/feed/",
+        "description": "WPDeveloper is a dedicated marketplace for WordPress plugins, themes and subsystems."
+      },
+      {
+        "url": "https://developer.wordpress.org/news/feed/",
+        "description": "Official WordPress developer news feed."
+      },
+      {
+        "url": "https://gutenbergtimes.com/feed/",
+        "description": "All-things WordPress Block Editor and Gutenberg plugin."
+      },
+      {
+        "url": "https://masterwp.com/feed/",
+        "description": "MasterWP, an independent source for WordPress industry insights."
+      },
+      {
+        "url": "https://wpengine.com/builders/feed/",
+        "description": "A new breed of technology company at the intersection of software innovation and service."
+      },
+      {
+        "url": "https://make.wordpress.org/core/feed/",
+        "description": "Official Make WordPress blog posts."
+      }
+    ]
+  },
+
+  {
+    "tag": "wpnotices",
+    "sources": [
+      {
+        "url": "https://wordpress.org/news/feed/",
+        "description": "Official WordPress news feed."
+      }
+    ]
+  },
+  {
+    "tag": "wpmisc",
+    "sources": [
+      {
+        "url": "https://thewpminute.com/news/feed/",
+        "description": "The WP Minute is a weekly WordPress news podcast delivered in under 5 minutes each episode."
+      },
+      {
+        "url": "https://wpbuilds.com/feed/",
+        "description": "A WordPress podcast packed full of things that you either don't want to know or are clever enough to work out that we just made up!"
+      },
+      {
+        "url": "https://wordpress.tv/feed/",
+        "description": "Approves and publishes videos on WordPress.tv as well as help WordCamps with video post-production."
+      },
+      {
+        "url": "https://jobs.wordpress.net/job_category/development/feed/",
+        "description": "Job listings on wordpress.org."
+      }
+    ]
+  }
+]
